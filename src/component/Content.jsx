@@ -12,7 +12,7 @@ function Content(props) {
   useEffect(() => {
     async function getPosts() {
       try {
-        const response = await axios.get(`/api/${props.user}`);
+        const response = await axios.get(`https://anakost-server.herokuapp.com/api/${props.user}`);
         setPosts(response.data.posts);
         props.updateNotes(response.data.notes);
         props.updateSourceList(response.data.sources)
