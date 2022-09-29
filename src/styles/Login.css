@@ -1,0 +1,35 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #57C478;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login div{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    margin-top: 33vh;
+}
+
+.login input{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.login h4{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.login button, .login a{
+    font-family: 'Montserrat', sans-serif;
+    color: #1B8366;
+    background-color: white;
+    text-decoration: none;
+}

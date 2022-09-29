@@ -1,0 +1,184 @@
+ /* Containers (5 Total) */
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: min(10vh);
+    grid-template-areas: 
+        "header header"
+        "header header"
+        "sidebar content"
+        "sidebar content"
+        "sidebar content"
+        "sidebar content"
+        "sidebar content"
+        "sidebar button"
+        "sidebar button"
+        "footer footer"
+    ;
+}
+.container .header{
+    grid-area: header;
+    background-color:  #57C478;
+    color: white;
+}
+.container .notes{
+    grid-area: sidebar;
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.container .content{
+    grid-area: content;
+    text-align: center;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container .buttons{
+    grid-area: button;
+    overflow-y: hidden;
+}
+
+.container .footer{
+    grid-area: footer;
+    overflow: hidden;
+    background-color:  #1B8366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Header Section */
+.header .source-container{
+    width: 25%;
+    text-align: left;
+    margin-right: 2rem;
+    margin-left: auto;
+    padding-top: 1rem;
+}
+
+.header .source-container .box-header{
+    background-color: red;
+}
+
+.header .container{
+    text-align: center;
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.header .container h1{
+    margin: 0;
+}
+
+.MuiBox-root.css-19y361v{
+    margin: 0;
+} 
+
+/* Content Section */
+.container .content .transaction div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .content .transaction p{
+    margin: 0;
+}
+
+.container .content .transaction .date{
+    font-size: 0.7rem;
+}
+
+/* Notes Section */
+.container .notes .note-container{
+    display: flex;
+    flex-direction: column;
+    height: 78%;
+    justify-content: space-between;
+}
+
+.container .notes .note{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    overflow-y: scroll;
+}
+
+.container .notes .note div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.container .notes .note .sentence{
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.container .notes .noteInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .notes .noteInput input{
+    width: 5rem;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.container .notes .noteInput button{
+    background: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* Buttons Section */
+.container .buttons .funcButton{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.container .buttons .funcButton button{
+    border: none;
+    background: none;
+}
+
+.popup-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.3rem;
+}
+
+.popup-container div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+}
+
+.popup-container div input{
+    width: 7rem;
+}
+
+.popup-container div textarea{
+    width: 8rem;
+}
+
+.popup-container div select{
+    width: 7rem;
+}
