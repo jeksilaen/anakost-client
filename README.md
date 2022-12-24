@@ -8,8 +8,11 @@
 
 ### **Client code for AnaKost web application built with React.Js**
 
-The main functionality of this web app is for simple expense tracking.
-Read more about each functionality on the ___usage section___ below!
+* The main functionality of this web app is for simple expense tracking.
+
+* Read more about each functionality on the ___usage section___ below!
+
+* Check out the backend repo for this project [here](https://github.com/jeksilaen/anakost-server#readme)
 
 
 ## Previews :computer:
