@@ -12,7 +12,9 @@
 
 * Read more about each functionality on the ___usage section___ below!
 
-* Check out the backend repo for this project [here](https://github.com/jeksilaen/anakost-server#readme)
+* Check out the [backend repo](https://github.com/jeksilaen/anakost-server#readme) for this project 
+
+* The deployed project can be viewed [here](https://eloquent-starlight-a2c599.netlify.app)
 
 ## Technology :iphone:
 | **Framework** |      [React.Js](https://reactjs.org)      |
