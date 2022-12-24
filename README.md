@@ -1,9 +1,10 @@
-# AnaKost Client
+# --AnaKost Client--
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/jeksilaen/anakost-client)
+![GitHub repo size](https://img.shields.io/github/repo-size/jeksilaen/anakost-client)
 ![GitHub followers](https://img.shields.io/github/followers/jeksilaen?style=social)
 
-## Description
+## Description :bookmark_tabs:
 
 ### **Client code for AnaKost web application built with React.Js**
 
@@ -11,27 +12,29 @@ The main functionality of this web app is for simple expense tracking.
 Read more about each functionality on the ___usage section___ below!
 
 
-## Previews
+## Previews :computer:
 
 ![alt text](https://github.com/jeksilaen/anakost-client/blob/main/docs-assets/anakost-client%20(home).png?raw=true)
 ![alt text](https://github.com/jeksilaen/anakost-client/blob/main/docs-assets/anakost-client%20(main).png?raw=true)
 ![alt text](https://github.com/jeksilaen/anakost-client/blob/main/docs-assets/anakost-client%20(transaction).png?raw=true)
 ![alt text](https://github.com/jeksilaen/anakost-client/blob/main/docs-assets/anakost-client%20(sources).png?raw=true)
 
+ 
+## Usage :wrench:
 
-## Usage
+> ### __Create an Account__
+On the home page, simply __enter your name__. The program will then send a request to the backend to create an account under that name. If an account with that name has already been created, you simply logged in into that account with all your progress!
 
-```js
-const tiny = require("@zachariabachtiar/tiny");
+> ### __Adding / Subtracting Expenses__
+This is the main functionality. By pressing either the plus or the minus button, you can add a new expenses!
 
-tiny("This is an example!");
-//  => "Thisisanexample!"
+> ### __Manage Sources__
+Each expenses may have different sources. On the top right of the screen, you can manage and add new sources.
 
-tiny(123);
-//  => Uncaught TypeError: Tiny wants a string!
-```
+> ### __Add some notes__
+This is a little handy functionality on the left side of the screen. Here you can add little notes for yourself.
 
-## Contribute
+## Contribute :raised_hand:
 
 ### Clone the repo and make changes however you want!
 ```js
