@@ -14,6 +14,12 @@
 
 * Check out the backend repo for this project [here](https://github.com/jeksilaen/anakost-server#readme)
 
+## Technology :iphone:
+| **Framework** |      [React.Js](https://reactjs.org)      |
+|---------------|:-----------------------------------------:|
+| **Styling**   | [Bootstrap CSS](https://getbootstrap.com) |
+| **UI Kit**    | [Material UI](https://mui.com)            |
+| **Deploy**    | [Netlify](https://www.netlify.com)        |
 
 ## Previews :computer:
 
