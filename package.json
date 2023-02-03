@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "proxy": "https://anakost-server.herokuapp.com",
+  "proxy": "https://web-production-3897.up.railway.app",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.4",
