@@ -12,7 +12,7 @@ function Notes(props) {
   }
 
   function addNote(){
-    axios.post(`https://anakost-server.herokuapp.com/api/notes/add/${props.user}`, {note : newNote});
+    axios.post(`/api/notes/add/${props.user}`, {note : newNote});
     props.updateNotes(prevNote => {
       return [...prevNote, {note : newNote}]
     })
@@ -20,7 +20,7 @@ function Notes(props) {
   }
 
   function deleteNote(event){
-    axios.post(`https://anakost-server.herokuapp.com/api/notes/delete/${props.user}`, {noteId : event.target.value});
+    axios.post(`/api/notes/delete/${props.user}`, {noteId : event.target.value});
     props.updateNotes(prevNote => {
       return prevNote.filter((item, index) => {
         return index !== toInteger(event.target.value)
