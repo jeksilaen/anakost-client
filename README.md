@@ -14,8 +14,6 @@
 
 * Check out the [backend repo](https://github.com/jeksilaen/anakost-server#readme) for this project 
 
-* The deployed project can be viewed [here](https://eloquent-starlight-a2c599.netlify.app)
-
 ## Technology :iphone:
 | **Framework** |      [React.Js](https://reactjs.org)      |
 |---------------|:-----------------------------------------:|
@@ -23,7 +21,7 @@
 | **UI Kit**    | [Material UI](https://mui.com)            |
 | **Deploy**    | [Netlify](https://www.netlify.com)        |
 
-## Previews :computer:
+## Previews :computer: [VIEW THE DEPLOYED PROJECT HERE](https://main--keen-torte-5dda3f.netlify.app)
 
 ![alt text](https://github.com/jeksilaen/anakost-client/blob/main/docs-assets/anakost-client%20(home).png?raw=true)
 ![alt text](https://github.com/jeksilaen/anakost-client/blob/main/docs-assets/anakost-client%20(main).png?raw=true)
