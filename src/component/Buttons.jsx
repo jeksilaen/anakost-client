@@ -66,7 +66,7 @@ function Buttons(props) {
           date : formatDate(new Date())
         }
         props.newInput(newDoc)
-        await axios.post(`/api/${props.user}`, newDoc);
+        await axios.post(`https://web-production-3897.up.railway.app/api/${props.user}`, newDoc);
 
       } catch(err) {
         console.log('error', err);

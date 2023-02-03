@@ -40,7 +40,7 @@ function BasicSelect(props) {
   };
 
   function addNewSource(){
-    axios.post(`/api/sources/add/${props.user}`, {source : newSource});
+    axios.post(`https://web-production-3897.up.railway.app/api/sources/add/${props.user}`, {source : newSource});
     props.updateSourceList([...props.sourceList, {source : newSource}])
     setNewSource('')
   }
